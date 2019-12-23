@@ -1,0 +1,33 @@
+/**
+ * Author:		Iancu George-Alexandru
+ * Created:		23.12.2019
+ * Project:		themefy-boilerplate
+ * (c) Copyright by Iancu George-Alexandru.
+ **/
+
+// -- main website variables
+
+// ====================
+// gutter
+// ====================
+$gutter-max:						1350px;
+
+// ====================
+// grid
+// ====================
+$grid-cols:						12;
+
+$grid-devices-small:			576;
+$grid-devices-medium:			768;
+$grid-devices-large:			992;
+$grid-devices-xlarge:			1200;
+
+$grid-props: (
+	"":							0,
+	"-small":					$grid-devices-small,
+	"-medium":					$grid-devices-medium,
+	"-large":					$grid-devices-large,
+	"-xlarge":					$grid-devices-xlarge
+);
+
+
